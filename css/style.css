@@ -1,13 +1,25 @@
 
+body{
+    width: 1015px;
+    
+}
+
+
 /*header*/
 #header{
     width: 1000px;
     height: 150px;
-    background-color: rgb(0, 132, 255);
+    background-color: rgb(68, 165, 255);
+    background-image: url('../img/pattern.png');
+    background-size: contain;   
     
 }
 
 /*tittle section*/
+
+h1{
+    font-size: 40px;
+}
 
 #credit{
     color: gray;
@@ -16,3 +28,80 @@
 #credit2{
     color: rgb(0, 195, 255);
 }
+
+/*img section*/
+
+#photo-credit{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+/*firs paragraph section*/
+
+#first-paragraph{
+    background-color: yellow;
+}
+
+
+
+/*table*/
+
+#table{
+    text-align: left;
+}
+
+#thead{
+    color: white;
+    background-color: rgb(0, 153, 255);
+}
+
+#tr1{
+    background-color: rgb(103, 216, 250);
+}
+
+#tr2{
+    background-color: rgb(255, 255, 255);
+}
+
+#tr3{
+    background-color: rgb(103, 216, 250);
+}
+
+
+
+/*second paragraph section*/
+
+#second-paragraph{
+    background-color: yellow;
+}
+
+
+/*footer*/
+
+#footer-title{
+    color: gray;
+}
+
+#footer-section1{
+    color: white;
+    text-align: center;
+    width: 190px;
+    height: 130px;
+    background-image: url('../img/monitor.jpg');
+    background-size: contain;
+
+}
+
+
+#footer-section2{
+    color: white;
+    text-align: center;
+    width: 190px;
+    height: 130px;
+    background-image: url('../img/graph.jpg');
+    background-size: contain;
+}
+
+
+
